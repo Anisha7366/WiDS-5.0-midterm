@@ -1,7 +1,7 @@
 # WiDS-5.0-midterm
 # Monte Carlo Simulations
 
-This covers the midterm submission for the WiDS project: "From calculating area to Gambling in BlackJack", spanning over the course of 2 weeks.
+This covers the midterm submission for the WiDS project, Monte Carlo Simulations: "From calculating area to Gambling in BlackJack", spanning over the course of 2 weeks.
 
 # WEEK 1:
 
@@ -121,4 +121,4 @@ the functions were runned for N from 2 to 10,000 and 2 plots for each function (
 
       4. taylor series proved to be the most accurate followed by monte carlo. reimann sum was inaccurate.
 
-# This concludes the midterm submission for the WiDS project: "From calculating area to Gambling in BlackJack", spanning over the course of 2 weeks. 
+# This concludes the midterm submission for the WiDS project, Monte Carlo Simulations: "From calculating area to Gambling in BlackJack", spanning over the course of 2 weeks. 
