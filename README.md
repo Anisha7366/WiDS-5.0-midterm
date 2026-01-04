@@ -63,4 +63,10 @@ A histogram(using matplotlib) was used to showcase the final wealth distribution
 
 The code was run using the 2 methods seperately(**with test cases from 2-100 and desired input**), perecentage error, value of e were reported accordingly.
 
+**2. Estimating pi**
 
+  1. method: finding the area of a unit circle using monte carlo methods(using np.random). That involves generating random points with -1<=x<=1, -1<=y<=1 and finding the number of points that lie inside the circle.
+
+  2. Plot1: Estimated value of pi vs the number of testcases. Plot2: Percentage error(with np.pi) vs the number of testcases.
+
+The function was run for N from 10 to 10**7 and the resulting value of pi was plotted accordingly.
