@@ -7,7 +7,7 @@ This covers the midterm submission for the WiDS project: "From calculating area 
 
 **1. The Gambler's ruin**
 
-This assignment required simulation of 10,000 gamblers playing a simple coin flip game simultaneously and analyzing their wealth over time.
+**This assignment required simulation of 10,000 gamblers playing a simple coin flip game simultaneously and analyzing their wealth over time.**
 
   1. Each gambler started with a payroll of $100
   
@@ -19,8 +19,8 @@ This assignment required simulation of 10,000 gamblers playing a simple coin fli
       
   3. Game over: when payroll touches 0
 
-Numpy was used to generate random outcomes over 1000 steps for 10000 gamblers and finding the payroll of each gambler at each step.
+**Numpy was used to generate random outcomes over 1000 steps for 10000 gamblers and finding the payroll of each gambler at each step.**
 
-A spaghetti plot(using matplotlib) was used to display the trajectories(payroll vs time) of all gamblers. Mean wealth at each stage, max winner and max loser were highlighted.
+**A spaghetti plot(using matplotlib) was used to display the trajectories(payroll vs time) of all gamblers. Mean wealth at each stage, max winner and max loser were highlighted.**
 
-A histogram(using matplotlib) was used to showcase the final wealth distribution(no. of gamblers vs final wealth) with mean wealth highlighted.
+**A histogram(using matplotlib) was used to showcase the final wealth distribution(no. of gamblers vs final wealth) with mean wealth highlighted.**
