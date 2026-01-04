@@ -13,9 +13,9 @@ This assignment required simulation of 10,000 gamblers playing a simple coin fli
   
   **2. 1000 rounds of fair coin flip were played, where:**
   
-      **1. Heads(+1): win $1**
+      1. Heads(+1): win $1
       
-      **2. Tails(-1): lose $1**
+      2. Tails(-1): lose $1
       
   **3. Game over: when payroll touches 0**
 
