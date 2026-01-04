@@ -61,7 +61,7 @@ A histogram(using matplotlib) was used to showcase the final wealth distribution
 
   2. method 2: generating N random sequences(u(k)) of numbers between 0 and 1 and finding a specific index n where u(n+1)>=u(n). Taking average of these over N sequences gives e(using **np.mean**). Comparing with the analytical value of e(**np.e**)
 
-The code was run using the 2 methods seperately(**with test cases from 2-100 and desired input**), perecentage error, value of e were reported accordingly.
+The code was runned using the 2 methods seperately(**with test cases from 2-100 and desired input**), perecentage error, value of e were reported accordingly.
 
 **2. Estimating pi**
 
@@ -69,4 +69,18 @@ The code was run using the 2 methods seperately(**with test cases from 2-100 and
 
   2. Plot1: Estimated value of pi vs the number of testcases. Plot2: Percentage error(with np.pi) vs the number of testcases.
 
-The function was run for N from 10 to 10**7 and the resulting value of pi was plotted accordingly.
+The function was runned for N from 10 to 10**7 and the resulting value of pi was plotted accordingly.
+
+**3. Modular shape estimator**
+
+   1. method: the code was refactored to be modular. A function was made which accepts the function/ predicate as argument. (generating points within the bounds and calculating area using monte carlo methods)
+    
+   2. function 1: Circle(standard pi estimation)--> x** 2+y** 2<1 true area=pi
+
+   3. function 2: Parabola(area under y=x**2 for 0<=x<=1), true area=1/3
+
+   4. function 3: Gaussian(area under y=e**(x**2) for 0<=x<=2), true area estimated using scipy.special.erf
+
+the functions were runned for N from 2 to 10,000 and 2 plots for each function (error percentage vs N) and (calculated value vs N) were plotted.
+
+
