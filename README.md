@@ -9,15 +9,15 @@ This covers the midterm submission for the WiDS project: "From calculating area 
 
 This assignment required simulation of 10,000 gamblers playing a simple coin flip game simultaneously and analyzing their wealth over time.
 
-  1. Each gambler started with a payroll of $100
+  **1. Each gambler started with a payroll of $100**
   
-  2. 1000 rounds of fair coin flip were played, where:
+  **2. 1000 rounds of fair coin flip were played, where:**
   
-      1. Heads(+1): win $1
+      **1. Heads(+1): win $1**
       
-      2. Tails(-1): lose $1
+      **2. Tails(-1): lose $1**
       
-  3. Game over: when payroll touches 0
+  **3. Game over: when payroll touches 0**
 
 Numpy was used to generate random outcomes over 1000 steps for 10000 gamblers and finding the payroll of each gambler at each step.
 
