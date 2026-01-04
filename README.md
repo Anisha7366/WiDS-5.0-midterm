@@ -51,7 +51,7 @@ A histogram(using matplotlib) was used to showcase the final wealth distribution
 
 # WEEK 2:
 
-**This week involved using monte carlo methods to estimate areas, volumes and constants such as e and pi.**
+**This week involved using monte carlo integration to estimate areas, volumes and constants such as e and pi.**
 
 **1. Estimating e:**
 
@@ -65,7 +65,7 @@ The code was runned using the 2 methods seperately(**with test cases from 2-100 
 
 **2. Estimating pi**
 
-  1. method: finding the area of a unit circle using monte carlo methods(using np.random). That involves generating random points with -1<=x<=1, -1<=y<=1 and finding the number of points that lie inside the circle.
+  1. method: finding the area of a unit circle using monte carlo integration(using np.random). That involves generating random points with -1<=x<=1, -1<=y<=1 and finding the number of points that lie inside the circle.
 
   2. Plot1: Estimated value of pi vs the number of testcases. Plot2: Percentage error(with np.pi) vs the number of testcases.
 
@@ -73,7 +73,7 @@ The function was runned for N from 10 to 10**7 and the resulting value of pi was
 
 **3. Modular shape estimator**
 
-   1. method: the code was refactored to be modular. A function was made which accepts the function/ predicate as argument. (generating points within the bounds and calculating area using monte carlo methods)
+   1. method: the code was refactored to be modular. A function was made which accepts the function/ predicate as argument. (generating points within the bounds and calculating area using monte carlo integration)
     
    2. function 1: Circle(standard pi estimation)--> x** 2+y** 2<1 true area=pi
 
@@ -83,4 +83,42 @@ The function was runned for N from 10 to 10**7 and the resulting value of pi was
 
 the functions were runned for N from 2 to 10,000 and 2 plots for each function (error percentage vs N) and (calculated value vs N) were plotted.
 
+**4. Other Applications**
 
+  1. volume of a n dimension sphere and area of intersection between 2 circles:
+     
+    1. function 1: finds volume of an n dimension sphere using monte carlo integration by sampling 1,000,000 points.
+
+    2. function 2: finds area of intersection between 2 circles using monte carlo integration by taking coordinates of centers of circles and radii as input.(samples 100,000 points)
+
+  **the functions were run with some generic inputs**
+
+  2. comparing reimann sum and monte carlo integration in different dimensions.
+
+    1. 1D:
+    
+      1. created a grid of 100,000 points to find the reimann sum(of rectangle areas) to find integration of sinxdx from 0 to pi.
+      
+      2. applied monte carlo integration and compared the two results.
+      
+      3. reimann sum proved to be much more accurate
+
+    2. 10D:
+    
+      1. created a grid of 1,000,000 points, 4 points per axis and found the reimann sum to find the volume of a 10D sphere.
+      
+      2. applied monte carlo integration accordingly by sampling 1,000,000 points randomly and compared the two results.
+
+      3. monte carlo proved to be much more accurate
+
+    3. 6D
+
+      1. applied taylor series in a function(upto 8 terms) to find the value of the gaussian integral (from -1 to 1) and raised it to the power 6.
+
+      2. reimann sum with 10 points per axis i.e 1,000,000 points to find the integral.
+
+      3. applied montecarlo integration by sampling 1,000,000 random points and compared all the results.
+
+      4. taylor series proved to be the most accurate followed by monte carlo. reimann sum was inaccurate.
+
+# This concludes the midterm submission for the WiDS project: "From calculating area to Gambling in BlackJack", spanning over the course of 2 weeks. 
