@@ -17,7 +17,7 @@ This covers the midterm submission for the WiDS project: "From calculating area 
       
       2. Tails(-1): lose $1
       
-      3. Game over: when payroll touches 0
+  3. Game over: when payroll touches 0
 
 Numpy was used to generate random outcomes over 1000 steps for 10000 gamblers and finding the payroll of each gambler at each step.
 
