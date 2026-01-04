@@ -49,6 +49,18 @@ A histogram(using matplotlib) was used to showcase the final wealth distribution
 
 **All 4 classes were made accordingly**
 
+# WEEK 2:
 
+**This week involved using monte carlo methods to estimate areas, volumes and constants such as e and pi.**
+
+**1. Estimating e:**
+
+  1. method 1: finding the area under the graph of "y vs 1/x" to find the log value and by extension "e".
+
+     generating N points with x coordinate between 1 and a given integer n(n>1), y coordinates from 0 to 1(**using np.random**). Finding number points that lie below y=1/x and estimating e accordingly. Comparing with the analytical value of e (using **np.e**)
+
+  2. method 2: generating N random sequences(u(k)) of numbers between 0 and 1 and finding a specific index n where u(n+1)>=u(n). Taking average of these over N sequences gives e(using **np.mean**). Comparing with the analytical value of e(**np.e**)
+
+The code was run using the 2 methods seperately(**with test cases from 2-100 and desired input**), perecentage error, value of e were reported accordingly.
 
 
